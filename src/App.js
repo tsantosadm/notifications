@@ -4,7 +4,7 @@ import { Emitter } from "./Emitter.js";
 
 const notify = Notifyer.notify({
   title: "Alerta Máximo",
-  body: "Faça algo para a sua Saúde!",
+  body: "Faça algo para a sua Saúde! Presta Atenção!",
 });
 
 const App = {
