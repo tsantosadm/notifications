@@ -1,8 +1,15 @@
 {
   "name": "notification",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
+
+  "scripts": {
+    "start": "electron ."
+  },
   "repository": "git@github.com:tsantosadm/notifications.git",
   "author": "tsantos <tsantosadm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.5"
+  }
 }
