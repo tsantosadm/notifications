@@ -1,4 +1,2 @@
 node_modules/
-.DS_Store
 yarn-lock.error
-models/cifar10_gradcam.h5
