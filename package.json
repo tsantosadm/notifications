@@ -4,7 +4,8 @@
   "main": "electron/main.js",
 
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/hourglass.icns --out=packages"
   },
   "repository": "git@github.com:tsantosadm/notifications.git",
   "author": "tsantos <tsantosadm@gmail.com>",

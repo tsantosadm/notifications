@@ -1,7 +1,7 @@
 const { BrowserWindow } = require("electron");
 const path = require("path");
 
-function createWindow() {
+function CreateWindow() {
   const win = new BrowserWindow({
     width: 250,
     height: 320,
@@ -9,9 +9,9 @@ function createWindow() {
     frame: false,
     resizable: false,
     fullscreen: false,
-    webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
-    },
+    // webPreferences: {
+    //   preload: path.join(__dirname, "preload.js"),
+    // },
   });
 
   win.loadFile("index.html");
@@ -19,4 +19,4 @@ function createWindow() {
   return win;
 }
 
-module.exports = createWindow();
+module.exports = CreateWindow();
